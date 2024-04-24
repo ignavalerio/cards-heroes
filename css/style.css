@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+
+.descuentotop {
+    background-color: rgba(209, 137, 28, 1);
+    color: black;
+    padding-left: 20px;
+}
+
+nav {
+    background-color: rgba(0, 102, 159, 1);
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.titulocards {
+    color: #fff;
+}
+
+
+
+#primero,
+#segundo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 10px;
+}
+
+.banner {
+    overflow: hidden;
+    /* Para que la imagen del banner se ajuste al borde redondeado */
+    border-radius: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+    /* Mitad de la altura de la imagen para centrarla verticalmente */
+    position: relative;
+    z-index: 1;
+    /* Asegura que la imagen esté sobre el banner */
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 20px;
+    background-color: rgba(0, 102, 159, 1);
+    color: #fff;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+
+    justify-content: space-between;
+    /* Distribuye los elementos de manera uniforme */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    padding: 20px;
+    /* Añade un espacio alrededor del contenido del footer */
+    background-color: rgba(0, 102, 159, 1);
+}
+
+footer p {
+    margin: 0;
+    /* Elimina el margen predeterminado del párrafo */
+    text-align: center;
+    color: #fff;
+}
+
+footer img {
+    height: 100%;
+}
